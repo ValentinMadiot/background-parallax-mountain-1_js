@@ -1,19 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mountain – Background Parallax</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive 3D Parallax Website</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <header class="nav__header">
+      <nav class="nav">
+        <img src="assets/img/logo.png" alt="Montain" class="nav__logo" />
 
-<body>
+        <ul class="nav__links">
+          <li>
+            <a class="nav__link" href="#"> Connexion </a>
+          </li>
+          <li>
+            <a class="nav__link" href="#"> Inscription </a>
+          </li>
+          <li class="nav__search">
+            <a class="nav__link" href="#">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </li>
+          <li class="nav__hamburger">
+            <a href="#">
+              <div class="nav__hamburger-bar"></div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-
-  <script src="js/gsap.min.js"></script>
-  <script src="js/app.js" defer></script>
-</body>
-
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/app.js" defer></script>
+  </body>
 </html>
