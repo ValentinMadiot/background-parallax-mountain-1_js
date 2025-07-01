@@ -1,5 +1,5 @@
 <div align="center">  
-  <a href="https://background-parallax-mountain-1.netlify.app/" target="_blank">  
+  <a href="https://background-parallax-mountain.netlify.app/" target="_blank">  
     <img src=".docs/preview.png" alt="Aperçu de l'animation parallax montagneuse" />  
   </a>  
   </br></br>  
@@ -52,8 +52,8 @@ Parfaite pour magnifier un portfolio, une page d’accueil ou toute présentatio
 ### 📥 Cloner le projet
 
 ```bash
-git clone https://github.com/ValentinMadiot/background-parallax-mountain-1_js
-cd background-parallax-mountain-1_js
+git clone https://github.com/ValentinMadiot/background-parallax-mountain_js
+cd background-parallax-mountain_js
 ```
 
 ### ▶️ Lancer le projet
