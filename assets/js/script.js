@@ -1,3 +1,27 @@
+//* SCALE THE SCENE
+const DESIGN_WIDTH = 1425;
+const DESIGN_HEIGHT = 820;
+const sceneEl = document.querySelector(".scene");
+
+function scaleScene() {
+  const scale = Math.max(
+    window.innerWidth / DESIGN_WIDTH,
+    window.innerHeight / DESIGN_HEIGHT
+  );
+  sceneEl.style.transform = `translate(-50%, -50%) scale(${scale})`;
+}
+scaleScene();
+window.addEventListener("resize", scaleScene);
+
+//* NAV BURGER
+// const burger = document.querySelector(".nav__hamburger");
+// const navLinks = document.querySelector(".nav__links");
+
+// burger?.addEventListener("click", (e) => {
+//   e.preventDefault();
+//   navLinks.classList.toggle("active");
+// });
+
 //* PARALLAX Animation
 const parallax_el = document.querySelectorAll(".parallax");
 
