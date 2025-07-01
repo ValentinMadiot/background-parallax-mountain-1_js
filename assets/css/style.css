@@ -54,7 +54,9 @@ a {
 }
 
 .nav__logo {
-  width: 100px;
+  /* width: 100px; */
+  color: #fff;
+  font-weight: bold;
 }
 
 .nav__links {
@@ -186,7 +188,7 @@ a {
 
 .home__text {
   z-index: 9;
-  top: calc(50% - 130px);
+  top: calc(50% - 195px);
   left: 50%;
   text-align: center;
   text-transform: uppercase;
